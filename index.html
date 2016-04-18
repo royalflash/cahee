@@ -32,7 +32,7 @@
 	    				<li><a href="#about">about</a></li>
 	    				<li><a href="#services">services</a></li>
 	    				<li><a href="#gallery">gallery</a></li>
-	    				<li><a href="#">blog</a></li>
+	    				<li><a href="#blog">blog</a></li>
 	    				<li><a href="#contact">contact</a></li>
 	    			</ul>
 	    		</div>
@@ -46,7 +46,7 @@
 	    </div>
 	</div>
 	<!-- END ba-fresh -->
-	<main role="main" >
+	<main>
 		<!-- BEGIN  About -->
 		<section id="about" class="ba-about">
 			<div class="ba-container">
@@ -117,10 +117,10 @@
 		    	</div>
 		    	<div class="ba-grid">
 		    			<div class="ba-width-1-2">
-		    				<img src="img/gallery/content/milk.png">
+		    				<img src="img/gallery/content/milk.png" alt="Milk">
 		    			</div>
 		    			<div class="ba-width-1-2">
-		    				<img src="img/gallery/content/persimmon.png">
+		    				<img src="img/gallery/content/persimmon.png" alt="Persimmon">
 		    			</div>
 		    	</div>
 				<div class="ba-gallery__button">
@@ -144,8 +144,57 @@
 		    </div>
 		</section>
 		<!-- END ba-subscribe -->
-
-
+		<!-- BEGIN ba-blog -->
+<section id="blog" class="ba-blog">
+				<div class="ba-container">
+					<div class="ba-info">
+						<h2 class="ba-blog__title">Blog</h2>
+						<p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+					</div>
+					<div class="ba-blog__gl">
+					<div class="ba-grid">
+						<div class="ba-width-1-3">
+							<a href="#" class="ba-blog__link">
+								<img class="ba-blog__img" src="img/blog/blog-lime.jpg" alt="cahee">
+								<div class="ba-blog__link--text">
+									<h5>Green Smoothies: Too Much of a Good Thing?</h5>
+									<p>By Auskteez - 2 hours ago</p>
+								</div>
+								<time class="ba-blog__link--time" datetime="11-20">20
+									<span>NOV</span>
+								</time>
+							</a>
+						</div>
+						<div class="ba-width-1-3">
+							<a href="#" class="ba-blog__link">
+								<img class="ba-blog__img" src="img/blog/blog-sup.jpg" alt="cahee">
+								<div class="ba-blog__link--text">
+									<h5>Growing Food and a “Thirst” for Innovation</h5>
+									<p>By Auskteez - 3 hours ago</p>
+								</div>
+								<time class="ba-blog__link--time" datetime="11-14">14
+									<span>NOV</span>
+								</time>
+							</a>
+						</div>
+						<div class="ba-width-1-3">
+							<a href="#" class="ba-blog__link">
+								<img class="ba-blog__img" src="img/blog/blog-raspberries.jpg" alt="cahee">
+								<div class="ba-blog__link--text">
+									<h5>Pesticides &amp; Food: What You Need to Know</h5>
+									<p>By Auskteez - 6 hours ago</p>
+								</div>
+								<time class="ba-blog__link--time" datetime="11-10">10
+									<span>NOV</span>
+								</time>
+							</a>
+						</div>
+					</div>
+					</div>
+					<a href="#" class="ba-button ba-button__blog">VIEW MORE</a>
+				</div>
+			</section>
+		<!-- END ba-blog -->
 		<!-- BEGIN ba-contact -->
 		<section id="contact" class="ba-contact">
 		    <div class="ba-container">
@@ -157,12 +206,13 @@ you'd like to discuss, contact with me!</p>
 		    	<div class="ba-grid ba-form">
 		    		<div class="ba-width-1-2">
 		    			<form>
-		    				<input class="ba-contacts" type="name" name="name" required placeholder="Your name">
-		    				<input class="ba-contacts" type="email" name="email" required placeholder="Your email"
-		    				<input>
-		    				<input class="ba-contacts" type="phone" name="phone" required placeholder="Your phone number">
-		    				<textarea class="ba-contacts" rows="8" name="msg" required placeholder="Your message"></textarea>
-		    			</form>
+		    				<input class="ba-contacts" type="text" name="name"  placeholder="Your name">
+		    				<input class="ba-contacts" type="email" name="email" required placeholder="Your email">
+		    				<input class="ba-contacts" type="tel" name="phone" placeholder="Your phone number">
+		    				<textarea class="ba-contacts" rows="8" name="msg" placeholder="Your message"></textarea>
+		    				<button class="ba-button ba-blog__button" type="submit">SEND
+							</button>
+						</form>
 		    		</div>
 		    		<div class="ba-width-1-2 ba-contact__info">
 						<h5>address</h5>
