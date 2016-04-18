@@ -288,7 +288,6 @@ textarea {
 }
 
 
-/*
 .ba-contact {
 	background: #FFF url(../img/contact/contact-bg.png);
 }
@@ -303,16 +302,36 @@ textarea {
 .ba-contact__title p {
 	max-width: 370px;
 	margin: 0 auto;
+	padding-bottom: 45px;
+}
+.ba-contacts::-webkit-input-placeholder {
+	color:#fff;
+}
+/* contact us*/
+.ba-form {
+	padding-bottom: 100px;
 }
 .ba-contacts {
+	font-size: 15px;
+	max-width: 500px;
+	margin-bottom: 16px;
 	outline: none;
 	width: 100%;
-	background: #77d9d8;
+	background-color: rgba(0, 196, 196, 0.5);
 	opacity: 0.5;
 	color: #fff;
 	border: none;
 	min-height: 50px;
 	padding-left: 20px;
+}
+.ba-contacts:hover {
+	background-color: #00C4C4;
+	border-left: 5px solid #355b82 ;
+}
+.ba-contacts:focus {
+	background-color: #00C4C4;
+	border-left: 5px solid #355b82 ;
+	font-weight: 700;
 }
 .ba-contact__info {
 	padding-left: 50px
@@ -325,4 +344,25 @@ textarea {
 	margin: 0;
 	text-decoration: none;
 	color: #262626;
-}  */
+}
+/* footer */
+.ba-footer {
+	background-color: #262626;
+}
+.ba-footer__info {
+	padding: 30px 0;
+	color:  #b9b9b9;
+	font-size: 16px;
+}
+.ba-footer__copy,
+.ba-footer__logo,
+.ba-footer__made {
+	display: inline-block;
+}
+.ba-footer__logo {
+	padding: 0 280px;
+}
+.ba-footer__made a {
+	text-decoration: none;
+	color:  red;
+}
